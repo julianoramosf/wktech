@@ -44,6 +44,11 @@ Altere a string de conexão com o MySql no arquivo **appsettings.json** no diret
   "DefaultConnection": "Server=[SERVER];User Id=[USER];Password=[PASSWORD];Database=[DATABASE]"
 ```
 
+Caso não tenha o Entity Framework instalado, execute o seguinte comando:
+```bash
+dotnet tool install --global dotnet-ef
+```
+
 Rode o EF Migration para inicializar o banco de dados
 
 ```bash
