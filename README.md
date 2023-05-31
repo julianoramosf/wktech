@@ -5,7 +5,7 @@ Este projeto foi implementado como teste para ingresso na empresa WK Technology.
 <br />
 ## Pré-requisitos
 
-Para o correto funcionamento do projeto é necessário ter instalado no ambiente o **.NET 7.0** e o NodeJs.
+Para o correto funcionamento do projeto é necessário ter instalado no ambiente o **.NET 7.0**, o **NodeJs** e o **MySQL**.
 
 ```bash
   https://dotnet.microsoft.com/pt-br/download/dotnet/7.0
