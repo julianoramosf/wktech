@@ -38,6 +38,21 @@ Restaure as dependências e faça o build da aplicação
   dotnet build
 ```
 
+Altere a string de conexão com o MySql no arquivo **appsettings.json**
+
+```bash
+  "DefaultConnection": "Server=[SERVER];User Id=[USER];Password=[PASSWORD];Database=[DATABASE]"
+```
+
+Rode o EF Migration para inicializar o banco de dados
+
+```bash
+  cd ./WKTech.API
+  dotnet ef database update
+```
+
+
+
 Inicialize a aplicação:
 
 ```bash
