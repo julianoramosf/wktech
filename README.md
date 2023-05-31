@@ -38,7 +38,7 @@ Restaure as dependências e faça o build da aplicação
   dotnet build
 ```
 
-Altere a string de conexão com o MySql no arquivo **appsettings.json**
+Altere a string de conexão com o MySql no arquivo **appsettings.json** no diretório **WKTech.API**
 
 ```bash
   "DefaultConnection": "Server=[SERVER];User Id=[USER];Password=[PASSWORD];Database=[DATABASE]"
