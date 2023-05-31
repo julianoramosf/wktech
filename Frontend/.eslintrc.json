@@ -1,0 +1,18 @@
+{
+  "extends": "@rocketseat/eslint-config/react",
+  "rules": {    
+    "eslint-disable-next-line react/no-children-prop": "off",
+    "no-console": "warn",
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "interface",
+        "format": ["PascalCase"],
+        "custom": {
+          "regex": "^I[A-Z]",
+          "match": true
+        }
+      }
+    ]
+  }
+}
